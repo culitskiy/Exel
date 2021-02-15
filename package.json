@@ -23,7 +23,7 @@
     "url": "https://github.com/culitskiy/Exel/issues"
   },
   "homepage": "https://github.com/culitskiy/Exel#readme",
-  "ptivate": true,
+  "ptivate": false,
   "devDependencies": {
     "@babel/core": "^7.12.13",
     "@babel/polyfill": "^7.12.1",
