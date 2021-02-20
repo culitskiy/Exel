@@ -5,7 +5,7 @@
         "browser": true
     },
     "extends": [
-        "airbnb",
+        "airbnb"
         // "plugin:react/recommended"
     ],
     "parserOptions": {

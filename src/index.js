@@ -1,5 +1,5 @@
 import './module.js';
-import './index.scss'
+import './scss/index.scss'
 
 console.log("Shalom");
 

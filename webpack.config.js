@@ -29,9 +29,9 @@ function jsLoaders() {
             }
         }
     ]
-    if (isDev) {
-        loaders.push(new ESLintPlugin(options));
-    }
+    // if (isDev) {
+    //     loaders.push(new ESLintPlugin(options));
+    // }
 
 
     return loaders;
@@ -71,7 +71,8 @@ module.exports = {
         }),
         new MiniCssExtractPlugin({
             filename: filename('css')
-        })
+        }),
+        new ESLintPlugin(options)
     ],
     module: {
         rules: [
